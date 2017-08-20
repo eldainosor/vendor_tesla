@@ -228,7 +228,7 @@ ifdef TESLA_BUILD_EXTRA
 endif
 
 ifndef TESLA_BUILD_TYPE
-    TESLA_BUILD_TYPE := UNOFFICIAL
+    TESLA_BUILD_TYPE := SHISHUlT
 endif
 
 # Set all versions
@@ -244,3 +244,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 EXTENDED_POST_PROCESS_PROPS := vendor/tesla/tools/tesla_process_props.py
 
+BUILD_TRUSHISHU := true
+include vendor/shishu/common.mk
